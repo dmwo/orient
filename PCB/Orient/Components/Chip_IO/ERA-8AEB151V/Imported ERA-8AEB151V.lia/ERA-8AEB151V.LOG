@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : ERA-8AEB151V.LibPkg
+
+Section : C:\Users\Jean-Christophe\Documents\GitHub\orient\PCB\Orient\Components\Chip_IO\ERA-8AEB151V\ERA-8AEB151V.lia
+    Section : PCB Library - ERA-8AEB151V.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token ERA-8AEB151V On Line 116
+            Warning - 1 : Skipping Token attachedSymbol On Line 168
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - ERA-8AEB151V.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 102
+            Warning - 1 : Skipping Token layerContents On Line 110
+        EndSection
+
+        Section : Generating SCH Library - ERA-8AEB151V.SchLib
+        EndSection
+    EndSection
+EndSection
