@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : RC0603FR-072K32L.LibPkg
+
+Section : C:\Users\Jean-Christophe\Documents\GitHub\orient\PCB\Orient\Components\Chip_IO\RC0603FR-072K32L\RC0603FR-072K32L.lia
+    Section : PCB Library - RC0603FR-072K32L.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token RC0603FR-072K32L On Line 116
+            Warning - 1 : Skipping Token attachedSymbol On Line 168
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - RC0603FR-072K32L.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 92
+            Warning - 1 : Skipping Token layerContents On Line 100
+            Warning - 1 : Skipping Token layerContents On Line 108
+        EndSection
+
+        Section : Generating SCH Library - RC0603FR-072K32L.SchLib
+        EndSection
+    EndSection
+EndSection
