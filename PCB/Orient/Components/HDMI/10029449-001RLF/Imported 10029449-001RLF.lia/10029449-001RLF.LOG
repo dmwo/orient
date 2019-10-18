@@ -1,0 +1,33 @@
+PCAD Importer Log
+Project : 10029449-001RLF.LibPkg
+
+Section : C:\Users\Jean-Christophe\Documents\GitHub\orient\PCB\Orient\Components\HDMI\10029449-001RLF\10029449-001RLF.lia
+    Section : PCB Library - 10029449-001RLF.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token isVisible On Line 148
+            Warning - 1 : Skipping Token isVisible On Line 161
+            Warning - 1 : Skipping Token 10029449-001RLF On Line 165
+            Warning - 1 : Skipping Token attachedSymbol On Line 422
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [*AMPHENOL_10029449-001RLF][Primary] associated with PCAD Component [10029449-001RLF] has been renamed to PCB FootPrint [*AMPHENOL_10029449-001RLF_10029449-001RLF(Primary)].
+        EndSection
+    EndSection
+
+    Section : SCH Library - 10029449-001RLF.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 121
+            Warning - 1 : Skipping Token layerContents On Line 127
+            Warning - 1 : Skipping Token layerContents On Line 137
+            Warning - 1 : Skipping Token layerContents On Line 150
+        EndSection
+
+        Section : Generating SCH Library - 10029449-001RLF.SchLib
+            Warning - 0 : PCAD Pattern Graphics [*AMPHENOL_10029449-001RLF][Primary] associated with PCAD Component [10029449-001RLF] has been renamed to PCB FootPrint [*AMPHENOL_10029449-001RLF_10029449-001RLF(Primary)].
+        EndSection
+    EndSection
+EndSection

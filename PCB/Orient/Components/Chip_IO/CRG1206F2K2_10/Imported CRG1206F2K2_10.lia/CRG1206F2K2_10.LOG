@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : CRG1206F2K2_10.LibPkg
+
+Section : C:\Users\Jean-Christophe\Documents\GitHub\orient\PCB\Orient\Components\Chip_IO\CRG1206F2K2_10\CRG1206F2K2_10.lia
+    Section : PCB Library - CRG1206F2K2_10.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token CRG1206F2K2/10 On Line 116
+            Warning - 1 : Skipping Token attachedSymbol On Line 169
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - CRG1206F2K2_10.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 104
+            Warning - 1 : Skipping Token layerContents On Line 108
+        EndSection
+
+        Section : Generating SCH Library - CRG1206F2K2_10.SchLib
+        EndSection
+    EndSection
+EndSection

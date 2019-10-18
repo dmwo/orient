@@ -13,6 +13,9 @@
 *.drcPreview
 *.OutJob
 *.SchDocPreview
+*.$$$Preview
+*.csvPreview
+*.repPreview
 
 # HTML Documents
 *.html
@@ -21,3 +24,6 @@
 History/
 Project Logs for Arduino/
 Project Outputs for Arduino/
+__Previews/
+
+# Hidden Files

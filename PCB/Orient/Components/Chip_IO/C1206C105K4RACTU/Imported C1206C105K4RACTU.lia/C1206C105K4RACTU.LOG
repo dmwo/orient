@@ -1,0 +1,32 @@
+PCAD Importer Log
+Project : C1206C105K4RACTU.LibPkg
+
+<<<<<<< HEAD
+Section : C:\Users\Jean-Christophe\Documents\GitHub\orient\PCB\Orient\Components\Chip_IO\C1206C105K4RACTU\C1206C105K4RACTU.lia
+=======
+Section : E:\Documents\GitHub\orient\PCB\Orient\Components\Chip_IO\C1206C105K4RACTU\C1206C105K4RACTU.lia
+>>>>>>> 11237a781e800bc53d77a122133a6621942b8b49
+    Section : PCB Library - C1206C105K4RACTU.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token C1206C105K4RACTU On Line 116
+            Warning - 1 : Skipping Token attachedSymbol On Line 171
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - C1206C105K4RACTU.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 94
+            Warning - 1 : Skipping Token layerContents On Line 102
+            Warning - 1 : Skipping Token layerContents On Line 110
+        EndSection
+
+        Section : Generating SCH Library - C1206C105K4RACTU.SchLib
+        EndSection
+    EndSection
+EndSection

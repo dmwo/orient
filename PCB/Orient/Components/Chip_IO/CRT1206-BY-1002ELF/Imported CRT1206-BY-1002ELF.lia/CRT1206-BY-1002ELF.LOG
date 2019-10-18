@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : CRT1206-BY-1002ELF.LibPkg
+
+Section : C:\Users\Jean-Christophe\Documents\GitHub\orient\PCB\Orient\Components\Chip_IO\CRT1206-BY-1002ELF\CRT1206-BY-1002ELF.lia
+    Section : PCB Library - CRT1206-BY-1002ELF.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token CRT1206-BY-1002ELF On Line 116
+            Warning - 1 : Skipping Token attachedSymbol On Line 168
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - CRT1206-BY-1002ELF.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 102
+            Warning - 1 : Skipping Token layerContents On Line 110
+        EndSection
+
+        Section : Generating SCH Library - CRT1206-BY-1002ELF.SchLib
+        EndSection
+    EndSection
+EndSection
