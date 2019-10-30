@@ -1,0 +1,29 @@
+# History Files
+*.PcbDoc.zip
+*.PcbLib.zip
+*.PrjPcb.zip
+*.SchDoc.zip
+*.SchLib.zip
+
+# Log Files
+*.LOG
+
+# Output Files
+*.drc
+*.drcPreview
+*.OutJob
+*.SchDocPreview
+*.$$$Preview
+*.csvPreview
+*.repPreview
+
+# HTML Documents
+*.html
+
+# Folders
+History/
+Project Logs for Arduino/
+Project Outputs for Arduino/
+__Previews/
+
+# Hidden Files
