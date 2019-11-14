@@ -15,6 +15,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.util.Log;
 import android.util.Size;
 import android.util.SparseArray;
 import android.view.Surface;
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     VideoView videoView;
 //    ImageView btnPlayPause;
     ImageButton btnplaypause;
-    String videoURL = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    String videoURL = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4";
     @Override
 //    https://www.youtube.com/watch?v=aqz-KE-bpKQ big buck bunny
 //    https://zhidao.baidu.com/question/1732880394851155707.html useful file
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     {
         mDialog = new ProgressDialog(MainActivity.this);
 //      error only use this, the call is not inside the context
-        mDialog.setMessage("Please wait you dumb bitch"); //内容
+        mDialog.setMessage("Please wait for a little bit"); //内容
         mDialog.setCanceledOnTouchOutside(false);
         mDialog.show(); //全部显示出来
 
@@ -74,7 +75,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     @Override
                     public void onCompletion(MediaPlayer mp)
                     {
-                        btnplaypause.setImageResource(R.drawable.ic_play); //现实图片
+//                        Log.i("Mission", "onCompletion: ");
+                          btnplaypause.setImageResource(R.drawable.ic_play); //现实图片 结束播放后的动作
+//                        finish();
                     }
                 });
             }
@@ -101,6 +104,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mDialog.dismiss();
                 mp.setLooping(true);
                 videoView.start();
+                btnplaypause.setImageResource(R.drawable.ic_pause);
+//                btnplaypause.setImageResource(R.drawable.ic_pause);
             }
         });
 
