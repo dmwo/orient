@@ -2,16 +2,15 @@
 FileName = Orient3.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : Orient3.GBO
+Generating : Keep-Out Layer
+      File : Orient3.GKO
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Keep-Out Layer
 
     Adding Layer      : Mechanical 1
 
 
 Used DCodes :
-    D14
     D16
 *************************************************************
 
@@ -30,34 +29,6 @@ Generating : Bottom Paste
 
 Used DCodes :
     D16
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Orient3.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D16
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D77
-    D78
 *************************************************************
 
 *************************************************************
@@ -107,6 +78,67 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Solder
+      File : Orient3.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D77
+    D78
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Orient3.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Orient3.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D14
+    D16
+*************************************************************
+
+*************************************************************
 Generating : Top Paste
       File : Orient3.GTP
 
@@ -141,6 +173,34 @@ Used DCodes :
     D34
     D35
     D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Orient3.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D14
+    D16
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
 *************************************************************
 
 *************************************************************
@@ -188,52 +248,5 @@ Used DCodes :
     D73
     D74
     D75
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Orient3.GTO
-
-    Adding Layer      : Top Overlay
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Orient3.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D14
-    D16
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
 *************************************************************
 

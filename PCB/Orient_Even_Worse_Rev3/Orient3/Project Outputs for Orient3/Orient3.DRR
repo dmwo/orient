@@ -1,9 +1,10 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Orient3.PcbDoc   16/11/2019  19:15:23
+NCDrill File Report For: Orient3.PcbDoc   16/11/2019  19:37:05
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
 ASCII RoundHoles File : Orient3.TXT
+EIA File   : Orient3.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
