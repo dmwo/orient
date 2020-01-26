@@ -2,10 +2,10 @@
 FileName = Orient3.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 13
-      File : Orient3.GM13
+Generating : Mechanical 15
+      File : Orient3.GM15
 
-    Adding Layer      : Mechanical 13
+    Adding Layer      : Mechanical 15
 
     Adding Layer      : Mechanical 1
 
@@ -13,7 +13,8 @@ Generating : Mechanical 13
 Used DCodes :
     D16
     D17
-    D75
+    D83
+    D84
 *************************************************************
 
 *************************************************************
@@ -29,7 +30,6 @@ Generating : Top Layer
 
 Used DCodes :
     D13
-    D14
     D16
     D17
     D18
@@ -52,14 +52,32 @@ Used DCodes :
     D35
     D36
     D37
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
+    D38
+    D39
+    D40
     D72
     D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Orient3.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D11
+    D16
+    D17
 *************************************************************
 
 *************************************************************
@@ -77,22 +95,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 15
-      File : Orient3.GM15
-
-    Adding Layer      : Mechanical 15
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D16
-    D17
-    D75
-    D76
-*************************************************************
-
-*************************************************************
 Generating : Mechanical 4
       File : Orient3.GM4
 
@@ -102,99 +104,11 @@ Generating : Mechanical 4
 
 
 Used DCodes :
-    D12
-    D14
-    D16
-    D17
-    D74
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : Orient3.GM1
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D16
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Orient3.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Mechanical 1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
     D13
     D14
     D16
     D17
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Orient3.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D13
-    D16
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Multi-Layer
-      File : Orient3.GML
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D16
-    D17
-    D67
-    D68
-    D69
-    D70
-    D71
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : Orient3.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D16
-    D17
+    D82
 *************************************************************
 
 *************************************************************
@@ -216,21 +130,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 16
-      File : Orient3.GM16
-
-    Adding Layer      : Mechanical 16
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D16
-    D17
-    D76
-*************************************************************
-
-*************************************************************
 Generating : Bottom Solder
       File : Orient3.GBS
 
@@ -246,6 +145,69 @@ Generating : Bottom Solder
 Used DCodes :
     D16
     D17
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D81
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : Orient3.GML
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D16
+    D17
+    D73
+    D74
+    D75
+    D76
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Orient3.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
     D58
     D59
     D60
@@ -254,6 +216,27 @@ Used DCodes :
     D63
     D64
     D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 16
+      File : Orient3.GM16
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D16
+    D17
+    D84
 *************************************************************
 
 *************************************************************
@@ -292,6 +275,9 @@ Used DCodes :
     D35
     D36
     D37
+    D38
+    D39
+    D40
 *************************************************************
 
 *************************************************************
@@ -315,48 +301,72 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : Orient3.GTS
+Generating : Keep-Out Layer
+      File : Orient3.GKO
 
-    Adding Layer      : Top Solder
+    Adding Layer      : Keep-Out Layer
 
     Adding Layer      : Mechanical 1
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D16
     D17
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : Orient3.GM1
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : Orient3.GM13
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D16
+    D17
+    D83
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Orient3.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D13
+    D16
+    D17
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
 *************************************************************
 
