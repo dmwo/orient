@@ -175,7 +175,6 @@ DocumentUniqueId=LCEGPZNQ
 
 [Document9]
 DocumentPath=P11_Exp Conn, uSD, and .SchDoc
-<<<<<<< Updated upstream
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -193,8 +192,6 @@ DocumentUniqueId=YZGMECOT
 
 [Document10]
 DocumentPath=Orient2.SCHLIB
-=======
->>>>>>> Stashed changes
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -210,13 +207,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKFEXSME
 
-<<<<<<< Updated upstream
 [Document11]
 DocumentPath=Orient2.PcbLib
-=======
-[Document10]
-DocumentPath=Orient2.SCHLIB
->>>>>>> Stashed changes
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -230,49 +222,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VXPXQROH
+DocumentUniqueId=
 
-<<<<<<< Updated upstream
 [Document12]
-DocumentPath=BeagleBone_Black_RevB4_V1.PcbDoc
-=======
-[Document11]
-DocumentPath=Orient2.PcbLib
->>>>>>> Stashed changes
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KCPVTPJP
-
-<<<<<<< Updated upstream
-[Document13]
-DocumentPath=BeagleBone_Black_RevB4_V2.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SJPPTFKE
-
-[Document14]
 DocumentPath=BeagleBone_Black_RevB4_V3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,12 +241,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TAWKCCNK
 
-[Document15]
+[Document13]
 DocumentPath=Orient2.OutJob
-=======
-[Document12]
-DocumentPath=BeagleBone_Black_RevB4_V3.PcbDoc
->>>>>>> Stashed changes
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
