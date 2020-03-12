@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/orient"
+    tools:context=".Open_page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_page"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom"
+        android:textColor="#ef0078"></TextView>
+
+    <Button
+        android:id="@+id/open_page_button_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="bottom"
+        android:onClick ="Setting"
+        android:text="setting" />
+
+    <Button
+        android:id="@+id/open_page_button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/open_page_button_setting"
+        android:layout_centerHorizontal="true"
+        android:onClick="startPLAY"
+        android:text="play"></Button>
+
+    <TextView
+        android:id="@+id/orient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orient"
+        android:gravity="bottom"
+        android:layout_centerHorizontal = "true"
+        android:layout_above="@id/open_page_button_setting"
+        android:textStyle="italic"
+        android:textColor = "#f8bb07"
+        android:textSize="44dp"/>
+
+
+</RelativeLayout>

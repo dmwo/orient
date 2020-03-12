@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.SurfaceTexture;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.hardware.camera2.CameraCaptureSession;
 import android.hardware.camera2.CameraDevice;
 import android.hardware.camera2.CameraManager;
@@ -24,20 +28,36 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.VideoView;
+
+import org.w3c.dom.Text;
 
 import java.io.File;
 import java.lang.annotation.Target;
+import java.text.BreakIterator;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
+public class MainActivity extends AppCompatActivity implements SensorEventListener, View.OnClickListener{
+
+    //public BreakIterator connectionStatus;
     ProgressDialog mDialog;
 //    进度弹窗
-//    identify mDialog
+    //identify mDialog
     VideoView videoView;
-//    ImageView btnPlayPause;
+    ImageView btnPlayPause;
     ImageButton btnplaypause;
-    String videoURL = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4";
+    String videoURL = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+
+    TextView xValue;
+    TextView yValue;
+    TextView zValue;
+    //gyroscope data
+
+    private static final String TAG = "MainActivity";
+    private SensorManager sensorManager;
+    private Sensor accelerometer, mGyro; //define a sensor
+
     @Override
 //    https://www.youtube.com/watch?v=aqz-KE-bpKQ big buck bunny
 //    https://zhidao.baidu.com/question/1732880394851155707.html useful file
@@ -45,11 +65,54 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Log.d(TAG, "onCreate: Initializing Sensor Service"); //used for debug
         videoView = (VideoView)findViewById(R.id.videoView); //get the ID from activity_main.xml
         btnplaypause = (ImageButton)findViewById(R.id.btn_play_pause);
         btnplaypause.setOnClickListener(this); //创建点击事件
+
+
+        xValue = (TextView) findViewById(R.id.xValue);
+        yValue = (TextView) findViewById(R.id.yValue);
+        zValue = (TextView) findViewById(R.id.zValue);
+
 //        only need to setup this
+//        gyroscope data
+        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER); //define the type
+        mGyro = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
+        sensorManager.registerListener(MainActivity.this, accelerometer, SensorManager.SENSOR_DELAY_FASTEST);
+        sensorManager.registerListener(MainActivity.this, mGyro, SensorManager.SENSOR_DELAY_FASTEST);
+//        boolean registerListener(SensorEventListener listener,Sensor sensor,int rateUs)
+//　　    上面方法参数的意义：listener：传感器的监听器、sensor：待监听的传感器、rateUs：传感器的采样率。
+        Log.d(TAG, "onCreate: Registered accelerometer listener");
+//        registerListener用来注册要监听的sensor
+//        Vibrator mVibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+//       mVibrator.vibrate(500);
+//        如让手机持续振动500毫秒
+    }
+
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int i) //当传感器精度发生变化时回调
+    {
+
+    }
+
+    @Override
+    public void onSensorChanged(SensorEvent sensorEvent)  //当传感器感应的值发生变化时回调。
+    {
+        Sensor sensor = sensorEvent.sensor;
+        if(sensor.getType() == sensor.TYPE_GYROSCOPE)
+        {
+            Log.d(TAG, "onSensorChanged X: "+ sensorEvent.values[0] + " Y: "+ sensorEvent.values[1] + " Z: " + sensorEvent.values[2]);
+//            xValue.setText("X-axis: "+ sensorEvent.values[0] +" m/s\u00B2  ");
+//            yValue.setText("Y-axis: " + sensorEvent.values[1] + " m/s\u00B2   ");
+//            zValue.setText("Z-axis: " + sensorEvent.values[2] + " m/s\u00B2   ");
+            xValue.setText("X-axis: "+ sensorEvent.values[0] +" rad/s ");
+            yValue.setText("Y-axis: " + sensorEvent.values[1] + " rad/s  ");
+            zValue.setText("Z-axis: " + sensorEvent.values[2] + " rad/s   ");
+
+        }
+
     }
 
     @Override
@@ -76,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     public void onCompletion(MediaPlayer mp)
                     {
 //                        Log.i("Mission", "onCompletion: ");
-                          btnplaypause.setImageResource(R.drawable.ic_play); //现实图片 结束播放后的动作
+                        btnplaypause.setImageResource(R.drawable.ic_play); //现实图片 结束播放后的动作
 //                        finish();
                     }
                 });

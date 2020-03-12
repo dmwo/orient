@@ -4,21 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <VideoView
         android:id="@+id/videoView"
-        android:layout_above="@id/btn_play_pause"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <TextView
+    android:id="@+id/xValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:gravity="bottom"
+    android:layout_above="@+id/yValue"
+    android:layout_centerInParent="true"
+    android:text="x-axis "
+    android:textColor="#ef0078"/>
+
+    <TextView
+        android:id="@+id/yValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zValue"
+        android:layout_centerInParent="true"
+        android:text="y-axis "
+        android:textColor="#ef0078"/>
 
     <ImageButton
-        android:layout_alignParentBottom="true"
         android:id="@+id/btn_play_pause"
-        android:src="@drawable/ic_play"
-        android:background="@color/colorPrimary"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="23dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:gravity="bottom"
+        android:src="@drawable/ic_play" />
+
+    <TextView
+        android:id="@+id/zValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z-axis"
+        android:layout_above="@+id/btn_play_pause"
+        android:layout_centerInParent="true"
+        android:textColor="#ef0078"/>
 
 
 </RelativeLayout>
