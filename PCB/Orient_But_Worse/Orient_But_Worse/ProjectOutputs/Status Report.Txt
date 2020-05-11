@@ -1,0 +1,28 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Orient2.PrjPcb]
+   Generated File[Orient.GTO]
+   Generated File[Orient.GTP]
+   Generated File[Orient.GTS]
+   Generated File[Orient.GTL]
+   Generated File[Orient.G1]
+   Generated File[Orient.G2]
+   Generated File[Orient.G3]
+   Generated File[Orient.G4]
+   Generated File[Orient.GBL]
+   Generated File[Orient.GBS]
+   Generated File[Orient.GBP]
+   Generated File[Orient.GBO]
+   Generated File[Orient.GPT]
+   Generated File[Orient.GPB]
+   Generated File[Orient.GD1]
+   Generated File[Orient.GG1]
+   Generated File[Orient.RUL]
+   Generated File[Orient.EXTREP]
+   Generated File[Orient.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 16:22:56 On 01/05/2020

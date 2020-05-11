@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Orient.PcbDoc   01/05/2020  16:21:55
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Orient-RoundHoles.TXT
+ASCII SlotHoles File : Orient-SlotHoles.TXT
+EIA File   : Orient.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      6mil (0.152mm)                                            Round             27        PTH        0.00inch (0.00mm)
+T2      8mil (0.2mm)                                              Round             33        PTH        0.00inch (0.00mm)
+T3      8mil (0.203mm)                                            Round             608       PTH        0.00inch (0.00mm)
+T4      40mil (1.016mm)                                           Round             37        PTH        0.00inch (0.00mm)
+T5      47mil (1.2mm)                                             Slot              4         PTH        0.00inch (0.00mm)
+T6      63mil (1.6mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T7      125mil (3.175mm)                                          Round             4         PTH        0.00inch (0.00mm)
+T8      128mil (3.251mm)                                          Round             2         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              717
+
+Total Processing Time (hh:mm:ss) : 00:00:00
